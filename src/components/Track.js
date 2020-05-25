@@ -11,7 +11,7 @@ const Track = (props) => {
     <th>
     <li value={index} key={index}>{tracks["im:name"].label}</li>
     </th>
-    <tc>---</tc>
+    <tc></tc>
     <th>
     <li value={index} key={index}>{tracks["im:artist"].label}</li>
     </th>
@@ -22,7 +22,7 @@ const Track = (props) => {
     <li value={index} key={index}>{tracks["im:price"].label}</li>
     </th>
     <th>
-    <a href={tracks.link[1].attributes.href}><img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi2z-W1oqzmAhXMy4UKHQAAB4MQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_87224878_stock-vector-play-button-with-shadow-on-transparent-background-isolated-sign-for-web-vector-icon-.html&psig=AOvVaw0w0qhC3EoeuLHs8Lh_Ck6M&ust=1576108116736599" width="82" height="86" alt="Play"/></a>
+    <a href={tracks.link[1].attributes.href}>Play</a>
     </th>
     </table>
     </div>
